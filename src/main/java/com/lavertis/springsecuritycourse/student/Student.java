@@ -1,6 +1,5 @@
 package com.lavertis.springsecuritycourse.student;
 
-
 public class Student {
     private final Integer id;
     private final String name;
@@ -16,5 +15,13 @@ public class Student {
 
     public String getName() {
         return name;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id=" + getId() +
+                ", name='" + getName() + '\'' +
+                '}';
     }
 }
