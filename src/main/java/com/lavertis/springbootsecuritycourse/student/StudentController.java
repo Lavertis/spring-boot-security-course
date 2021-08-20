@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.student;
+package com.lavertis.springbootsecuritycourse.student;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

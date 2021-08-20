@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.security;
+package com.lavertis.springbootsecuritycourse.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -13,7 +13,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 
-import static com.lavertis.springsecuritycourse.security.ApplicationUserRole.*;
+import static com.lavertis.springbootsecuritycourse.security.ApplicationUserRole.*;
 
 @Configuration
 @EnableWebSecurity
@@ -30,6 +30,8 @@ public class ApplicationSecurityConfig extends WebSecurityConfigurerAdapter {
     @Override
     protected void configure(HttpSecurity http) throws Exception {
         http
+//                .csrf().csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
+//                .and()
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/", "index", "/css/*", "/js/*").permitAll()

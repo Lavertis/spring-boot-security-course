@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.student;
+package com.lavertis.springbootsecuritycourse.student;
 
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

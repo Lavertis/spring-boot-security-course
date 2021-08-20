@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.security;
+package com.lavertis.springbootsecuritycourse.security;
 
 public enum ApplicationUserPermission {
     STUDENT_READ("student:read"),

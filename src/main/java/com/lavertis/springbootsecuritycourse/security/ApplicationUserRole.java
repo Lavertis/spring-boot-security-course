@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.security;
+package com.lavertis.springbootsecuritycourse.security;
 
 import com.google.common.collect.Sets;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -6,7 +6,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-import static com.lavertis.springsecuritycourse.security.ApplicationUserPermission.*;
+import static com.lavertis.springbootsecuritycourse.security.ApplicationUserPermission.*;
 
 public enum ApplicationUserRole {
     STUDENT(Sets.newHashSet()),

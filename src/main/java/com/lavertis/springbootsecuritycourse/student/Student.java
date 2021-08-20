@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.student;
+package com.lavertis.springbootsecuritycourse.student;
 
 public class Student {
     private final Integer id;

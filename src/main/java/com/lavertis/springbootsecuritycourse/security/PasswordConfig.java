@@ -1,4 +1,4 @@
-package com.lavertis.springsecuritycourse.security;
+package com.lavertis.springbootsecuritycourse.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
